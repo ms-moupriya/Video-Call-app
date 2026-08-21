@@ -4,6 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 export default defineConfig({
+  base: "/Video-Call-app/",
+
   plugins: [
     react(),
     tailwindcss(),
